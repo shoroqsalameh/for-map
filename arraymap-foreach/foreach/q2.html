@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+             <script>
+                        function onlyEvenValues(array){
+                            let evenarray=[];
+                               array.forEach(function(e){
+                                      if(e%2==0)
+                                      {
+                                         evenarray.push(e);
+                                      }
+
+                               }
+                              
+                               );
+                               return evenarray;
+                        }
+
+                        let array1=[1,2,3];
+                        let array2=[5,1,2,3,10];
+                        let result1=onlyEvenValues(array1);
+                        let result2=onlyEvenValues(array2);
+                        console.log(result1 + "<hr>"+result2);
+
+             </script>
+</body>
+</html>

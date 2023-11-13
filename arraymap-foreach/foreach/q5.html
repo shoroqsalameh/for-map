@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+              <script>
+                function vowelCount(str){
+                        let newobj={};
+                        let vowel="aeiou";
+                        
+                        str.toLowerCase.split("").forEach(function(e){
+                             
+                              if(vowel.includes(e))
+                              { 
+                                 if(newobj.e==undefined)
+                                    newobj.e=1;
+                                  else 
+                                    newobj[e]++;
+                                    
+
+                              }   
+                        });
+
+ 
+                  }
+
+                  vowelCount('Elie')
+
+                  
+              </script>
+
+</body>
+</html>
